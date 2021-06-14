@@ -12,6 +12,7 @@ class BreakWithLabelDemo {
         int j = 0;
         boolean foundIt = false;
 
+        //Similar to a switch stmt/case that needs a break
         search:
         for (i = 0; i < arrayOfInts.length; i++) {
             for (j = 0; j < arrayOfInts[i].length;
